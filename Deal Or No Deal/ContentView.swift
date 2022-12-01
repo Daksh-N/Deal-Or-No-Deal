@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Deal Or No Deal
 //
-//  Created by Daksh Nakra on 12/1/22.
+//  Created by Daksh Nakra on 11/22/22, deleted and revived on 12/1/22.
 //
 
 import SwiftUI
@@ -24,3 +24,10 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+/*
+ citations:
+ - https://sarunw.com/posts/how-to-add-custom-fonts-to-ios-app/
+ -
+ 
+ */
