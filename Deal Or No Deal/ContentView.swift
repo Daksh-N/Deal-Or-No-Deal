@@ -6,16 +6,31 @@
 //
 
 import SwiftUI
-
 struct ContentView: View {
+    @State private var cases = [0.01,
+                                1, 5,
+                                10, 25, 50, 75,
+                                100, 200, 300, 400, 500, 750,
+                                1000, 5000,
+                                10000, 25000, 50000, 75000,
+                                100000, 200000, 300000, 400000, 500000, 750000,
+                                1000000]
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            CustomText(text: "Deal Or No Deal")
+                .padding(25)
+            
+            Spacer()
+            //NavigationLink("To Game", destination: GameView())
         }
-        .padding()
+    }
+}
+
+//inherited from "Pig"
+struct CustomText: View {
+    let text: String
+    var body: some View {
+        Text(text).font(.custom("Eurostile Extended", size: 36))
     }
 }
 
@@ -27,7 +42,6 @@ struct ContentView_Previews: PreviewProvider {
 
 /*
  citations:
- - https://sarunw.com/posts/how-to-add-custom-fonts-to-ios-app/
- -
- 
+ - Leo Lai
+ - Dhanush Tipparaju
  */
