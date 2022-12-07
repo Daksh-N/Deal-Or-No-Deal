@@ -7,7 +7,7 @@
 
 import SwiftUI
 struct ContentView: View {
-    @State private var cases = [0.01,
+    @State private var caseNumbers = [0.01,
                                 1, 5,
                                 10, 25, 50, 75,
                                 100, 200, 300, 400, 500, 750,
@@ -16,12 +16,15 @@ struct ContentView: View {
                                 100000, 200000, 300000, 400000, 500000, 750000,
                                 1000000]
     var body: some View {
-        VStack {
-            CustomText(text: "Deal Or No Deal")
+        NavigationView {
+            VStack {
+                CustomText(text: "Deal Or No Deal")
                 .padding(25)
-            
-            Spacer()
-            //NavigationLink("To Game", destination: GameView())
+                Spacer()
+                NavigationLink("Need Help on how to play? Click here!", destination: InstructionsView())
+                    .padding(100)
+                NavigationLink("To Game", destination: GameView(cases: caseNumbers))
+            }
         }
     }
 }

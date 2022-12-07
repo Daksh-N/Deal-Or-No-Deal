@@ -18,6 +18,9 @@
 		B66A2DAA293A54CB000610CE /* EuroStyle.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B66A2DA6293A54CB000610CE /* EuroStyle.ttf */; };
 		B66A2DAB293A54CB000610CE /* Eurostile Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B66A2DA7293A54CB000610CE /* Eurostile Bold.ttf */; };
 		B66A2DAC293A54CB000610CE /* Eurostile.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B66A2DA8293A54CB000610CE /* Eurostile.ttf */; };
+		B6EB0B8F293F9A5400A41E68 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EB0B8E293F9A5300A41E68 /* GameView.swift */; };
+		B6EB0B912940FCD900A41E68 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EB0B902940FCD900A41E68 /* ScoreView.swift */; };
+		B6EB0B932940FDD600A41E68 /* InstructionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EB0B922940FDD600A41E68 /* InstructionsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 		B66A2DA6293A54CB000610CE /* EuroStyle.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = EuroStyle.ttf; path = "Eurostile Fonts/EuroStyle.ttf"; sourceTree = SOURCE_ROOT; };
 		B66A2DA7293A54CB000610CE /* Eurostile Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Eurostile Bold.ttf"; path = "Eurostile Fonts/Eurostile Bold.ttf"; sourceTree = SOURCE_ROOT; };
 		B66A2DA8293A54CB000610CE /* Eurostile.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Eurostile.ttf; path = "Eurostile Fonts/Eurostile.ttf"; sourceTree = SOURCE_ROOT; };
+		B6EB0B8E293F9A5300A41E68 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		B6EB0B902940FCD900A41E68 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		B6EB0B922940FDD600A41E68 /* InstructionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,9 @@
 			children = (
 				B6189EA92939454500BA0B23 /* Deal_Or_No_DealApp.swift */,
 				B6189EAB2939454500BA0B23 /* ContentView.swift */,
+				B6EB0B8E293F9A5300A41E68 /* GameView.swift */,
+				B6EB0B902940FCD900A41E68 /* ScoreView.swift */,
+				B6EB0B922940FDD600A41E68 /* InstructionsView.swift */,
 				B66A2DA7293A54CB000610CE /* Eurostile Bold.ttf */,
 				B66A2DA5293A54CB000610CE /* Eurostile Extended.ttf */,
 				B66A2DA8293A54CB000610CE /* Eurostile.ttf */,
@@ -274,6 +283,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6189EAC2939454500BA0B23 /* ContentView.swift in Sources */,
+				B6EB0B932940FDD600A41E68 /* InstructionsView.swift in Sources */,
+				B6EB0B912940FCD900A41E68 /* ScoreView.swift in Sources */,
+				B6EB0B8F293F9A5400A41E68 /* GameView.swift in Sources */,
 				B6189EAA2939454500BA0B23 /* Deal_Or_No_DealApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
